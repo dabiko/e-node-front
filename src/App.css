@@ -24,6 +24,10 @@ a {
   border-color: inherit;
 }
 
+.gap-8 {
+  gap: 8px;
+}
+
 .gap-10 {
   gap: 10px;
 }
@@ -38,6 +42,7 @@ a {
 
 
 /* Header Style */
+
 .header-top-strip {
   background-color: var(--color-131921);
   border-bottom: 1px solid var(--color-3b4149);
@@ -93,5 +98,69 @@ a {
   border-bottom: 1px solid var(--color-3b4149);
 }
 
+/* Footer Style */
 
+footer {
+  background-color: var(--color-232f3e);
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.newsletter .h1 {
+  position: relative;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 500;
+  letter-spacing: .6px;
+  margin: 0;
+  color: aliceblue;
+  text-align: left;
+  float: left;
+  width: 56%;
+}
+
+.subscribe-btn {
+  padding: 8px 17px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: var(--color-232f3e);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover {
+  background: var(--color-febd69);
+  color: #131921;
+  padding: 8px 17px;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: var(--color-febd69) !important;
+}
+
+.social-icons a:hover {
+  color: var(--color-febd69) !important;
+}
+
+.social-icons a:hover {
+  color: var(--color-febd69) !important;
+}
+
+
+.payment-icons {
+  float: right;
+}
+.app-buttons {
+ width: 80%;
+}
+
+.app-span  .app-buttons:hover {
+  width: 90%;
+  transition: all .5s ease-in-out 0s;
+  -webkit-transition: all .5s ease-in-out 0s;
+}
 
