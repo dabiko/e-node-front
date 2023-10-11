@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
 import Marquee from "react-fast-marquee"
+import BlogCard from "../components/BlogCard"
 
 class Home extends Component {
   render() {
@@ -288,6 +289,19 @@ class Home extends Component {
                   </Marquee>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className={"home-wrapper-2 py-5"}>
+          <div className={"container-xxl"}>
+            <div className={"row"}>
+              <div className={"col-12"}>
+                <h2 className={"blog-heading"}>Our Latest News</h2>
+              </div>
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
             </div>
           </div>
         </section>

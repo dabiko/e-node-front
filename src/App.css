@@ -377,3 +377,108 @@ footer:not(:first-child) {
   -webkit-transform: rotateY(360deg);
   -webkit-filter: brightness(100%);
 }
+
+/*Blog section*/
+
+.blog-heading {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 0;
+  color: var(--color-131921);
+  padding-right: 10px;
+  letter-spacing: 0;
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-date {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: var(--color-131921);
+  border-radius: 5px;
+}
+
+.blog-title {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-left: 10px;
+  color: var(--color-131921);
+  line-height: 24px;
+  font-style: normal;
+  letter-spacing: 0;
+  width: 100%;
+  float: left;
+  margin: 0 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.blog-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: var(--color-131921);
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: .3px;
+  padding-left: 10px;
+  margin: 0 0 15px;
+}
+
+.app-button {
+  cursor: pointer;
+  font-weight: 450;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  background: var(--color-131921);
+  color: var(--color-FFFFFF);
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 10px 30px;
+  margin: 10px 0 10px 10px;
+  border-radius: 10px;
+}
+
+.app-button:hover {
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  background: var(--color-febd69) !important;
+  color: var(--color-131921);
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
