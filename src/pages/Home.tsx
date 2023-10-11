@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
+import Marquee from "react-fast-marquee"
 
 class Home extends Component {
   render() {
@@ -157,62 +158,134 @@ class Home extends Component {
                     "categories d-flex justify-content-between flex-wrap align-items-center"
                   }
                 >
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/camera.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/speaker.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/tv.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/headphone.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/camera.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/speaker.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/tv.jpg"} alt={""} />
                   </div>
-                  <div className={"d-flex gap-8 align-items-center"}>
+                  <div className={"d-flex align-items-center"}>
                     <div>
                       <h6>Smart Devices</h6>
                       <p>12 items</p>
                     </div>
                     <img src={"images/headphone.jpg"} alt={""} />
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className={"home-wrapper-2 py-5"}>
+          <div className={"container-xxl"}>
+            <div className={"row"}>
+              <div className={"col-12"}>
+                <div
+                  className={
+                    "marquee-slider d-flex justify-content-between flex-wrap align-items-center"
+                  }
+                >
+                  <Marquee pauseOnHover={true} className={"d-flex"}>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-01.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-02.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-03.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-04.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-05.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-06.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-07.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                    <div className={"brand mx-4 w-20"}>
+                      <img
+                        className={"brand-img"}
+                        src={"images/brand-08.png"}
+                        alt={"brand"}
+                      />
+                    </div>
+                  </Marquee>
                 </div>
               </div>
             </div>
